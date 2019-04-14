@@ -1,0 +1,56 @@
+body,div,ul,li,a{
+  margin: 0px;padding: 0px;
+}
+.home{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: #222;
+  z-index: 10;
+  
+}
+.home>div{
+  width:950px;height: 100%;
+  background: #222;
+  margin: 0 auto;
+}
+.home .myLogo,.home ul>li{
+  float: left;
+}
+.home>div>.myLogo:hover,.home ul>li:hover{
+  cursor: pointer;
+  color: #fff;
+}
+.home ul>li{
+  padding:0 5%;
+  /* border:1px solid #fff; */
+  /* padding: 0 10px; */
+
+}
+ul>li{
+  list-style: none;
+}
+.home>div,.home ul{
+  font-size: 20px;
+  line-height: 50px;
+}
+.home>div{
+  color:#aaa;
+}
+.home ul>li:nth-child(1){
+  color:#fff;
+  background: #000;
+}
+.home>div>.myLogo{
+  margin-left: 1%;
+  /* text-decoration: underline; */
+}
+.home>div>.myLogo{
+  font-size: 18px;
+}
+.home ul{
+  font-size: 14px;
+}
+.home ul{
+  margin-left: 72%;
+}
