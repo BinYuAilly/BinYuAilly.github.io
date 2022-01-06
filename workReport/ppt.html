@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>2020– 述职报告</title>
+	<title>2021– 述职报告</title>
 
 	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 	<meta name="author" content="Hakim El Hattab">
@@ -20,23 +20,57 @@
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.body-bg{
+			background-image: url("image/bg-work.png") !important;
+			background-color: rgba(0, 0, 0, 0.5);
+			/* opacity: 0.9; */
+			color: #fff !important;
+		}
+		.section-color1{
+			/* color: #ff842c !important; */
+
+			color: #170add !important;
+		}
+		.section-color2{
+			color: #fff !important;
+		}
+		.section-color3{
+			/* color: #ad7817fc !important; */
+			color: #170add !important;
+		}
+		.section-color4, h2{
+			color: #0400ff !important;
+		}
+		.section-color5{
+			color: #0ff500 !important;
+		}
+		section .section-color6,
+		section.has-light-background h1{
+			color: red !important;
+		}
+	</style>
 </head>
 
-<body>
+<body class="">
 
 	<div class="reveal">
 
 		<!-- Any section element inside of this container is displayed as a slide -->
-		<div class="slides">
+		<div class="slides body-bg">
 			<section data-background="#f0f0f0">
 
-				<h3>2021述职报告</h3>
-				<p>前端--余晶彬</p>
+				<h3 class="section-color4">2021述职报告</h3>
+				<p class="section-color2">前端--余晶彬</p>
 			</section>
 
 			<section data-background="#f0f0f0">
 				<h2>工作内容</h2>
-				<ul class="fragment">
+				<ul class="fragment section-color1">
 					<li>征创云</li>
 					<li>应急安全</li>
 					<li>征创云服务</li>
@@ -50,7 +84,7 @@
 				<p>白市驿镇考核</p>
 				<p>沙坪坝房源系统</p>
 				<p>南岸房源管理系统</p> -->
-				<p class="fragment">等等...</p>
+				<p class="fragment section-color3">等等...</p>
 			</section>
 			<!-- <section data-background="#f0f0f0">
 				<h3>项目具体介绍</h3>
@@ -68,7 +102,7 @@
 				</section> -->
 				<!-- <section data-background="#f0f0f0"> -->
 					<h2>主要开发内容</h2>
-					<ul class="fragment">
+					<ul class="fragment section-color1">
 						<li>项目页面搭建及功能实现</li>
 						<li>与后端对接数据接口</li>
 						<li>配合测试人员调试BUG及解决</li>
@@ -86,7 +120,7 @@
 			<section data-background="#f0f0f0" data-auto-animate
 				data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
 				<h2 style="margin-top: 20px;">开发项目总结</h2>
-				<p class="fragment">1.基于前端技术</p>
+				<p class="fragment section-color1">1.基于前端技术</p>
 				<div class="r-hstack justify-center fragment" >
 				
 					<div data-id="box2" data-auto-animate-delay="0.1"
@@ -160,24 +194,24 @@
 
 			<section data-background="#f0f0f0">
 				<h2>述职总结</h2>
-				<ul class="fragment">
+				<ul class="fragment section-color3">
 					<li>在2021年里，我始终保持一颗积极上进的心；</li>
 					<li>积极配合后端、维护人员共同完善项目，解决BUG，听从领导安排；</li>
 					<li>当然，我自身仍有些不足，我会在2022里继续努力，完善自己，尽心尽力为公司贡献自己的绵薄之力。</li>
 				</ul>
-				<p class="fragment" style="font-size: 5rem;">以上就是我的本次述职，感谢各位领导倾听</p>
+				<p class="fragment section-color5" style="font-size: 5rem;">以上就是我的本次述职，感谢各位领导倾听</p>
 			</section>
 
 
 			<section data-background="#f0f0f0" style="text-align: left;">
-				<h1>THE END</h1>
-				<p>
-                   Thanks
-				</p>
+				<div class="section-color6" style="max-width: 500px;margin: 0 auto;">
+					<h1>THE END</h1>
+					<p>
+					   Thanks!
+					</p>
+				</div>
 			</section>
-
 		</div>
-
 	</div>
 
 	<script src="dist/reveal.js"></script>
