@@ -23,6 +23,7 @@
 		*{
 			margin: 0;
 			padding: 0;
+			user-select: none;
 		}
 		.body-bg{
 			background-image: url("image/bg-work.png") !important;
@@ -56,14 +57,27 @@
 			padding: 10px 20px;
 			border-radius: 5px;
 		}
-
-		.show-span-box1{
+		.show-span-box{
+			display: inline-block;
+			background-color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			margin-top: 10px;
+		}
+		.show-span-box1,
+		.show-span-box2{
 			display: inline-block;
 			background-color: royalblue;
 			color: #fff;
 			padding: 10px 20px;
 			border-radius: 5px;
 			margin-top: 10px;
+		}
+		.show-span-box2{
+			background-color: #fff;
+			color: royalblue;
+			/* color: #0ff500 !important; */
+			font-weight: bold;
 		}
 		ul li{
 			list-style: none;
@@ -200,14 +214,14 @@
 				</ul>
 			</section>
 			<section data-background="#f0f0f0">
-				<p class="section-color5" style="font-size: 5rem;">以上就是我的本次述职，感谢各位领导倾听</p>
+				<p class="section-color5" style="font-size: 5rem;"> <span class="show-span-box2">以上就是我的本次述职，感谢各位领导倾听!</span> </p>
 			</section>
 
 			<section data-background="#f0f0f0" style="text-align: left;">
 				<div class="section-color6" style="max-width: 500px;margin: 0 auto;">
-					<h1>THE END</h1>
+					<h1> <span class="show-span-box">THE END</span> </h1>
 					<p>
-					   Thanks!
+						<span class="show-span-box">Thanks!</span>  
 					</p>
 				</div>
 			</section>
